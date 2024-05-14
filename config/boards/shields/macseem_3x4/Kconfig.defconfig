@@ -1,0 +1,6 @@
+if SHIELD_MACSEEM_3X4
+
+config ZMK_KEYBOARD_NAME
+  default "macseem_3x4"
+
+endif
