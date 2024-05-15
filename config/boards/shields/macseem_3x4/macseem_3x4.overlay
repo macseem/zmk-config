@@ -9,16 +9,16 @@
       diode-direction = "col2row";
 
       col-gpios
-        = <&blackpill 17 GPIO_ACTIVE_HIGH>
-        , <&blackpill 16 GPIO_ACTIVE_HIGH>
+        = <&blackpill 14 GPIO_ACTIVE_HIGH>
         , <&blackpill 15 GPIO_ACTIVE_HIGH>
-        , <&blackpill 14 GPIO_ACTIVE_HIGH>
+        , <&blackpill 16 GPIO_ACTIVE_HIGH>
+        , <&blackpill 17 GPIO_ACTIVE_HIGH>
         ;
 
       row-gpios 
-        = <&blackpill 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        = <&blackpill 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         , <&blackpill 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-        , <&blackpill 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&blackpill 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         ;
 
                 
